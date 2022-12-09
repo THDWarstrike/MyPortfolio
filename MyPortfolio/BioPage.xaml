@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPortfolio.BioPage"
+             Title="BioPage">
+    <VerticalStackLayout >        
+        
+        <Label 
+            Text="About Me"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="The name... Keith McHugh. I have been coding for 2 years now and I have learned a lot from Sekol and from my peers. Even though I have learned a lot in the 2 years but yet I have more to learn."
+            VerticalOptions="Center"
+            HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button 
+            Text="To Github Page" 
+            x:Name="BtngitHub" 
+            Clicked="BtngitHub_Clicked"/>
+        <Button 
+            Text="Return to Previous Page" 
+            x:Name="BtnPrevious" 
+            Clicked="BtnPrevious_Clicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

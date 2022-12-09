@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPortfolio.ContactPage"
+             Title="ContactPage">
+    <VerticalStackLayout>
+    
+        <Label 
+            Text="How to Contact me"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="Email"
+            VerticalOptions="Center"            
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="mchughkeith3@gmail.com"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Phone - (330)957-3839 or (330)-926-4000"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Address - 7300 N.Palmyra Rd. Canfield, Oh 44406"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button Text="Return to Previous" x:Name="BtnPrevious" Clicked="BtnPrevious_Clicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
